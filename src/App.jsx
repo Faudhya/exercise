@@ -8,7 +8,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid g-0 p-0">
             <Header />
             <Routes>
                 <Route exact path="/my-app/exercise1" element={<Exercise1 />} />
