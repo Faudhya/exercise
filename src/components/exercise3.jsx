@@ -38,22 +38,13 @@ export default function Exercise3() {
                     {("0" + Math.floor((time / 60000) % 60)).slice(-2)}:
                     {("0" + Math.floor((time / 1000) % 60)).slice(-2)}
                     <div className="btn-container">
-                        <button
-                            className="stopwatch-button-start"
-                            onClick={start}
-                        >
+                        <button className="btn btn-success" onClick={start}>
                             Start
                         </button>
-                        <button
-                            className="stopwatch-button-stop"
-                            onClick={stop}
-                        >
+                        <button className="btn btn-danger mx-3" onClick={stop}>
                             Stop
                         </button>
-                        <button
-                            className="stopwatch-button-reset"
-                            onClick={reset}
-                        >
+                        <button className="btn btn-secondary" onClick={reset}>
                             Reset
                         </button>
                     </div>

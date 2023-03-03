@@ -3,15 +3,11 @@
     margin: 20px;
 }
 
-.header-btn {
-    margin: 10px;
-    font-family: consolas, monospace;
-    font-size: 20px;
-}
 /* Exercise 1 */
 .container-exercise1 {
     height: 100vh;
 }
+
 .number {
     font-size: 25px;
     font-family: consolas, monospace;

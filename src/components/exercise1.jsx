@@ -17,7 +17,12 @@ export default function Exercise1() {
     return (
         <div className="container container-exercise1">
             <div className="container-fluid text-center main-container">
-                <div className="number">Counter: {count}</div>
+                <div className="number">
+                    Counter
+                    <span className="badge badge-primary badge-pill ml-3">
+                        {count}
+                    </span>
+                </div>
                 <button
                     className="btn btn-success button"
                     onClick={IncrementCount}
