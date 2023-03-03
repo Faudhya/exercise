@@ -1,0 +1,120 @@
+/* Header */
+.header-container {
+    margin: 20px;
+}
+
+.header-btn {
+    margin: 10px;
+    font-family: consolas, monospace;
+    font-size: 20px;
+}
+/* Exercise 1 */
+.container-exercise1 {
+    height: 100vh;
+}
+.number {
+    font-size: 25px;
+    font-family: consolas, monospace;
+}
+
+.main-container {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.button {
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+/* Exercise 2 */
+
+.list {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: consolas, monospace;
+}
+
+.list-item {
+    list-style: none;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    font-family: consolas, monospace;
+}
+
+.search-bar {
+    max-width: 400px;
+    font-family: consolas, monospace;
+    border-color: black;
+    border-radius: 4px;
+}
+
+/* Exercise 3 */
+.container-exercise3 {
+    height: 100vh;
+}
+.stopwatch-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(37, 32, 32);
+}
+
+.stopwatch {
+    font-family: consolas, monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.btn-container {
+    margin: 10px;
+}
+
+.stopwatch-button-start {
+    font-size: 20px;
+    font-family: consolas, monospace;
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
+
+.stopwatch-button-stop {
+    font-size: 20px;
+    font-family: consolas, monospace;
+    margin: 10px;
+    background-color: red;
+    color: white;
+}
+
+.stopwatch-button-reset {
+    font-size: 20px;
+    font-family: consolas, monospace;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    font-family: consolas, monospace;
+    color: black;
+}
+
+.footer-bottom {
+    background: lightgray;
+    width: 100vw;
+    padding: 3px;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
