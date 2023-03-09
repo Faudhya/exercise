@@ -21,7 +21,7 @@ export default function Exercise2() {
                 className="search-bar container-fluid"
                 onChange={(e) => setQuery(e.target.value.toLowerCase())}
             />
-            <ul className="list text-center">{fruitslist}</ul>
+            <ul className="list mr-4">{fruitslist}</ul>
         </div>
     );
 }
